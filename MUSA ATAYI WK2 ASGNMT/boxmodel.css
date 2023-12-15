@@ -1,0 +1,122 @@
+.history{
+    color: white;
+    font-style: oblique;
+    border: 2px;
+    border-width: 50px;
+    border-style: none;
+    background-color: black;
+    font-size: 20px;
+}
+
+.history1{
+    color: red;
+}
+
+.religion{
+    width: 200px;
+    height: 250px;
+    border: 3px;
+    border-style: dashed;
+    border-color: black;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.political{
+    width: 200px;
+    height: 250px;
+    border: 3px;
+    border-style: groove;
+    border-color: black;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subdivision{
+    width: 200px;
+    height: 250px;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.ata{
+    width: 200px;
+    height: 250px;
+    border: 3px;
+    border-style: dotted;
+    border-color: black;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rel{
+    color: darkblue;
+}
+.rel2{
+    color: darkgreen;
+}
+.rel3{
+    color: yellow;
+}
+.rel4{
+    color: purple;
+}
+
+.history2{
+    display: flex;
+}
+
+.atah{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    height: 300px;
+    
+}
+.one{
+    border: 2px;
+    border-style: double;
+    padding: 10px;
+    background-image: url(img/ata.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one1{
+        border: green;
+        border-style: double;
+        padding: 30px;
+        background-image: url(img/igalaland.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.one2{
+        border: 5px;
+        border-style: double;
+        padding: 30px;
+        background-image: url(img/inikpi.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.color{
+    background-image: url(img/mira.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+ 
+}
